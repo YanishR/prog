@@ -34,6 +34,11 @@ class MachLangParser{
   Instruction getNextInstruction();
 
  private:
+  string decode(string encoded);
+
+  string decodeR(string encoded);
+  string decodeI(string encoded);
+  string decodeJ(string encoded);
 
 };
 
